@@ -53,6 +53,7 @@ function drowMarkup(data) {
           </ul>`
         }).join('')
         getEl(".country-list").innerHTML = '';  
+        getEl(".country-info").innerHTML = ''; 
         drowCountry(fullData);
 }}
       
